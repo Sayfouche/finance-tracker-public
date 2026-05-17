@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+snapshots/
+.env
+secrets/
+backups/
+runs/

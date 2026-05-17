@@ -1,0 +1,62 @@
+{
+  "accounts": [
+    {
+      "provider_account_id": "agg-demo-a-001",
+      "external_id": "demo-checking-1",
+      "institution": "Demo Bank A",
+      "name": "Compte de chèques",
+      "type": "courant",
+      "currency": "EUR",
+      "balance": 1410.42,
+      "balance_date": "2026-05-12",
+      "transactions": [
+        {
+          "id": "agg-demo-a-tx-001",
+          "date": "2026-05-11",
+          "label": "CARREFOUR MARKET",
+          "amount": -51.2
+        }
+      ]
+    },
+    {
+      "provider_account_id": "agg-demo-a-002",
+      "external_id": "demo-savings-1",
+      "institution": "Demo Bank A",
+      "name": "Livret A",
+      "type": "livret",
+      "currency": "EUR",
+      "balance": 8050.0,
+      "balance_date": "2026-05-12",
+      "transactions": []
+    },
+    {
+      "provider_account_id": "agg-demo-a-003",
+      "external_id": "demo-savings-2",
+      "institution": "Demo Bank A",
+      "name": "LDDS",
+      "type": "livret",
+      "currency": "EUR",
+      "balance": 12000.0,
+      "balance_date": "2026-05-12",
+      "transactions": []
+    },
+    {
+      "provider_account_id": "agg-demo-b-001",
+      "external_id": "demo-checking-2",
+      "institution": "Demo Bank B",
+      "name": "Compte bancaire",
+      "type": "courant",
+      "currency": "EUR",
+      "balance": 710.15,
+      "balance_date": "2026-05-12",
+      "transactions": [
+        {
+          "id": "agg-demo-b-tx-001",
+          "date": "2026-05-10",
+          "label": "VIREMENT RECU",
+          "amount": 500.0
+        }
+      ]
+    }
+  ]
+}

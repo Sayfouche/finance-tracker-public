@@ -1,0 +1,79 @@
+{
+  "snapshot_date": "2026-05-12T08:00:00+02:00",
+  "source": "account_collector",
+  "run_id": "manual-sample-2026-05-12",
+  "accounts": [
+    {
+      "external_id": "demo-checking-1",
+      "institution": "Demo Bank A",
+      "account_name": "Compte courant Demo A",
+      "account_type": "courant",
+      "currency": "EUR",
+      "balance": 1250.42,
+      "balance_date": "2026-05-12",
+      "collection_strategy": "manual_file",
+      "status": "success",
+      "transactions": [
+        {
+          "date": "2026-05-10",
+          "label": "CARREFOUR",
+          "amount": -42.35,
+          "currency": "EUR",
+          "external_id": "demo-a-tx-001"
+        },
+        {
+          "date": "2026-05-08",
+          "label": "SALAIRE",
+          "amount": 3500.0,
+          "currency": "EUR",
+          "external_id": "demo-a-tx-002"
+        }
+      ]
+    },
+    {
+      "external_id": "demo-savings-1",
+      "institution": "Demo Bank A",
+      "account_name": "Livret Demo A",
+      "account_type": "livret",
+      "currency": "EUR",
+      "balance": 8000.0,
+      "balance_date": "2026-05-12",
+      "collection_strategy": "manual_file",
+      "status": "success",
+      "transactions": []
+    },
+    {
+      "external_id": "demo-savings-2",
+      "institution": "Demo Bank A",
+      "account_name": "Livret Demo B",
+      "account_type": "livret",
+      "currency": "EUR",
+      "balance": 12000.0,
+      "balance_date": "2026-05-12",
+      "collection_strategy": "manual_file",
+      "status": "success",
+      "transactions": []
+    },
+    {
+      "external_id": "demo-checking-2",
+      "institution": "Demo Bank B",
+      "account_name": "Compte courant Demo B",
+      "account_type": "courant",
+      "currency": "EUR",
+      "balance": 540.15,
+      "balance_date": "2026-05-12",
+      "collection_strategy": "manual_file",
+      "status": "success",
+      "transactions": [
+        {
+          "date": "2026-05-11",
+          "label": "VIREMENT INTERNE DEMO",
+          "amount": 500.0,
+          "currency": "EUR",
+          "external_id": "demo-b-tx-001"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

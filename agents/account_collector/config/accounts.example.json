@@ -1,0 +1,36 @@
+{
+  "accounts": [
+    {
+      "external_id": "demo-checking-1",
+      "institution": "Demo Bank A",
+      "account_name": "Compte courant Demo A",
+      "account_type": "courant",
+      "preferred_strategy": "open_banking",
+      "fallback_strategy": "manual_file"
+    },
+    {
+      "external_id": "demo-savings-1",
+      "institution": "Demo Bank A",
+      "account_name": "Livret Demo A",
+      "account_type": "livret",
+      "preferred_strategy": "open_banking",
+      "fallback_strategy": "manual_file"
+    },
+    {
+      "external_id": "demo-savings-2",
+      "institution": "Demo Bank A",
+      "account_name": "Livret Demo B",
+      "account_type": "livret",
+      "preferred_strategy": "open_banking",
+      "fallback_strategy": "manual_file"
+    },
+    {
+      "external_id": "demo-checking-2",
+      "institution": "Demo Bank B",
+      "account_name": "Compte courant Demo B",
+      "account_type": "courant",
+      "preferred_strategy": "open_banking",
+      "fallback_strategy": "manual_file"
+    }
+  ]
+}

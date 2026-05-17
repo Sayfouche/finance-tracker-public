@@ -1,0 +1,46 @@
+{
+  "accounts": [
+    {
+      "external_id": "1",
+      "institution": "Demo Bank B",
+      "account_name": "Compte courant Demo B",
+      "account_type": "courant",
+      "preferred_strategy": "powens"
+    },
+    {
+      "external_id": "2",
+      "institution": "Demo Bank A",
+      "account_name": "Compte courant Demo A",
+      "account_type": "courant",
+      "preferred_strategy": "powens"
+    },
+    {
+      "external_id": "3",
+      "institution": "Demo Bank A",
+      "account_name": "Livret Demo B",
+      "account_type": "livret",
+      "preferred_strategy": "powens"
+    },
+    {
+      "external_id": "4",
+      "institution": "Demo Bank A",
+      "account_name": "LDDS Madame",
+      "account_type": "livret",
+      "preferred_strategy": "powens"
+    },
+    {
+      "external_id": "5",
+      "institution": "Demo Bank A",
+      "account_name": "Livret Demo A",
+      "account_type": "livret",
+      "preferred_strategy": "powens"
+    },
+    {
+      "external_id": "6",
+      "institution": "Demo Bank A",
+      "account_name": "Crédit immobilier",
+      "account_type": "credit",
+      "preferred_strategy": "powens"
+    }
+  ]
+}

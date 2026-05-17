@@ -1,0 +1,99 @@
+{
+  "accounts": [
+    {
+      "external_id": "demo-checking-1",
+      "id": 53185,
+      "type": "checking",
+      "name": "Compte Courant Demo A",
+      "balance": 1410.42,
+      "last_update": "2026-05-12 08:15:41",
+      "currency": {
+        "id": "EUR",
+        "name": "Euro",
+        "symbol": "EUR"
+      },
+      "id_connection": 50748,
+      "id_user": 51595
+    },
+    {
+      "external_id": "demo-savings-1",
+      "id": 53186,
+      "type": "savings",
+      "name": "Livret Demo A",
+      "balance": 8050.0,
+      "last_update": "2026-05-12 08:15:41",
+      "currency": {
+        "id": "EUR",
+        "name": "Euro",
+        "symbol": "EUR"
+      },
+      "id_connection": 50748,
+      "id_user": 51595
+    },
+    {
+      "external_id": "demo-savings-2",
+      "id": 53187,
+      "type": "savings",
+      "name": "Livret Demo B",
+      "balance": 12000.0,
+      "last_update": "2026-05-12 08:15:41",
+      "currency": {
+        "id": "EUR",
+        "name": "Euro",
+        "symbol": "EUR"
+      },
+      "id_connection": 50748,
+      "id_user": 51595
+    },
+    {
+      "external_id": "demo-checking-2",
+      "id": 53895,
+      "type": "checking",
+      "name": "Compte Courant Demo Bank B",
+      "balance": 610.15,
+      "last_update": "2026-05-12 09:02:11",
+      "currency": {
+        "id": "EUR",
+        "name": "Euro",
+        "symbol": "EUR"
+      },
+      "id_connection": 50749,
+      "id_user": 51595
+    }
+  ],
+  "transactions": [
+    {
+      "id": 900001,
+      "id_account": 53185,
+      "date": "2026-05-11",
+      "value": -51.2,
+      "wording": "CARREFOUR MARKET",
+      "raw": "CB CARREFOUR MARKET",
+      "currency": {
+        "id": "EUR"
+      }
+    },
+    {
+      "id": 900002,
+      "id_account": 53185,
+      "date": "2026-05-10",
+      "value": -14.9,
+      "wording": "SNCF CONNECT",
+      "raw": "PAIEMENT CB SNCF CONNECT",
+      "currency": {
+        "id": "EUR"
+      }
+    },
+    {
+      "id": 900003,
+      "id_account": 53895,
+      "date": "2026-05-10",
+      "value": 500.0,
+      "wording": "VIREMENT INTERNE DEMO",
+      "raw": "VIR SEPA DEMO",
+      "currency": {
+        "id": "EUR"
+      }
+    }
+  ]
+}
