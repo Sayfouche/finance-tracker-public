@@ -52,6 +52,26 @@ NEXT_PUBLIC_API_URL=http://127.0.0.1:8000 npm run dev -- --hostname 127.0.0.1 --
 
 Open `http://127.0.0.1:3000`.
 
+## How to Use the App
+
+See [docs/USER_GUIDE.md](docs/USER_GUIDE.md) for the main workflows:
+
+- create household members and accounts;
+- import transactions;
+- categorize and review monthly budgets;
+- maintain monthly patrimony snapshots;
+- use the simulator;
+- keep private financial data out of Git.
+
+## Account Collector Agent
+
+The optional account collector can collect synthetic/demo account snapshots from
+fixtures or private provider adapters, then hand them to the main app for
+staging.
+
+See [docs/AGENT_TECHNICAL.md](docs/AGENT_TECHNICAL.md) for the CLI, provider
+contract, staging flow and security rules.
+
 ## Tests
 
 ```bash

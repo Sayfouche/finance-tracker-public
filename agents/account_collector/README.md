@@ -2,6 +2,9 @@
 
 Agent indépendant de collecte read-only des comptes financiers.
 
+For the full technical contract, staging flow and security rules, see
+`../../docs/AGENT_TECHNICAL.md`.
+
 Phase 1 :
 - lit une source `manual_file` JSON ;
 - valide et normalise les comptes, soldes et transactions ;
